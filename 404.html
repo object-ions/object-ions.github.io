@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Moved to switchcasestudio</title>
+<meta name="robots" content="noindex">
+<script>
+  // object-ions.github.io/<project>/... -> switchcasestudio.github.io/<project>/...
+  // bare object-ions.github.io -> the GitHub profile
+  var p = location.pathname + location.search + location.hash;
+  location.replace(location.pathname === '/'
+    ? 'https://github.com/switchcasestudio'
+    : 'https://switchcasestudio.github.io' + p);
+</script>
+<noscript><meta http-equiv="refresh" content="0; url=https://github.com/switchcasestudio"></noscript>
+</head>
+<body>
+<p>Object-ions is now <a href="https://github.com/switchcasestudio">switchcasestudio</a>.</p>
+</body>
+</html>
